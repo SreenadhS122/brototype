@@ -15,7 +15,7 @@ body{
 .div1{
     background:#ea4c4c;;
     width: 100%;
-    height: 25px;
+    height: fit-content;
     margin-top: 0;
     text-align: center;
     font-weight: bold;
@@ -24,7 +24,7 @@ body{
 .div2{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 2000px;
+    height: fit-content;
     float: left;
 background-image:url(	https://brototype.com/images/bg-main.webp) ;
 background-size: 800px 600px;
@@ -82,7 +82,7 @@ cursor: auto;
         position:sticky;
     }
 .innerdiv21{
-height: 5px;
+height: 3px;
 width: 20px;
 align-content: end;
 background-color: rgb(255, 255, 255);
@@ -121,26 +121,26 @@ color: aliceblue;
  border-radius: 2px;
  background-color: yellow;
  cursor: pointer;
- margin-top: 7px;
+ margin-top: 12px;
 
 
 }
 .radio2{
     margin-left: 10px;
     color: aliceblue;
-    margin-top: 7px;
+    margin-top: 12px;
     cursor: pointer;
 }
 .radio3{
     margin-left: 5px;
     color: aliceblue;
-    margin-top: 7px;
+    margin-top: 12px;
     cursor: pointer;
 }
 .radio4{
     margin-left: 10px;
     color: aliceblue;
-    margin-top: 7px;
+    margin-top: 12px;
     cursor: pointer;
 }
 .div3{
@@ -222,6 +222,7 @@ cursor: pointer;
 .div5{
     margin-top: 150px;
     line-height: 10px;
+    height: fit-content;
 }
 video{
     width: 250px;
@@ -248,7 +249,7 @@ video{
 .div6{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height:1200px;
+    height:2000px;
     margin-top: 10px;
     padding-top: 50px;
     }
@@ -304,7 +305,7 @@ line-height:6px;
 }
 .div7{
 width: 100%;
-height: 6000px;
+height: fit-content;
 background-color: rgb(0, 0, 0);
 }
 .p3
@@ -366,7 +367,6 @@ margin-top: 60px;
     text-align: center;
     margin-top: 100px;
 font-size: 60px;
-line-height: 80px;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bolder;
 }
@@ -402,6 +402,69 @@ width: 700px;
 margin-left: 130px;
 
 }
-.button1:hover{
-    transition:cubic-bezier(0.645, 0.045, 0.355, 1);
+.foot{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot1{
+    background-color: #000000;
+    width: 400px;
+    height: 200px;
+    color:white;
+    margin-left: 20px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+width: 80%;
+height:400px;
+background-color: #000000;
+color: white;
+}
+.footer2{
+width:500px;
+height: 200px;
+background-color: transparent;
+float: left;
+align-items: center;
+margin-left: 350px;
+border: #ffffff;
+border-width: 5px;
+color: #ffffff;
+
+}
+.footer3{
+    width: 100%;
+    height:100px;
+    background-color:#212529;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+text-decoration: none;
+border-color: #ffffff;
+border-width: 3px;
+}
+
+a{
+    color: #e50914;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.button2:hover{
+    background-color: #e50914;
+    color: white;
 }
